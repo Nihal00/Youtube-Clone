@@ -1,0 +1,208 @@
+youtube clone
+
+fetch(https://developers.google.com/youtube/v3/docs)
+
+Postman software
+
+
+API key
+
+
+
+
+{kind: 'youtube#searchListResponse', etag: 'ALWQRA2eN1BZQGaV8lUK05MFC_E', nextPageToken: 'CAEQAA', regionCode: 'IN', pageInfo: {…}, …}
+etag
+: 
+"ALWQRA2eN1BZQGaV8lUK05MFC_E"
+items
+: 
+Array(1)
+0
+: 
+duration
+: 
+"PT20S"
+etag
+: 
+"3w6a8EP96lLwOyIHevv7X4bez7Q"
+id
+: 
+kind
+: 
+"youtube#video"
+videoId
+: 
+"QZHVhDjpEkE"
+[[Prototype]]
+: 
+Object
+kind
+: 
+"youtube#searchResult"
+snippet
+: 
+channelId
+: 
+"UCS56r87Y7q1SrAB-42brE-w"
+channelTitle
+: 
+"Sonyakisa8 TT"
+description
+: 
+""
+liveBroadcastContent
+: 
+"none"
+publishTime
+: 
+"2023-05-31T12:24:39Z"
+publishedAt
+: 
+"2023-05-31T12:24:39Z"
+thumbnails
+: 
+default
+: 
+{url: 'https://i.ytimg.com/vi/QZHVhDjpEkE/default.jpg', width: 120, height: 90}
+high
+: 
+{url: 'https://i.ytimg.com/vi/QZHVhDjpEkE/hqdefault.jpg', width: 480, height: 360}
+medium
+: 
+{url: 'https://i.ytimg.com/vi/QZHVhDjpEkE/mqdefault.jpg', width: 320, height: 180}
+[[Prototype]]
+: 
+Object
+title
+: 
+"🥲🥲🥲 #cat #cats"
+[[Prototype]]
+: 
+Object
+videoStats
+: 
+commentCount
+: 
+"89"
+favoriteCount
+: 
+"0"
+likeCount
+: 
+"12350"
+viewCount
+: 
+"128872"
+[[Prototype]]
+: 
+Object
+[[Prototype]]
+: 
+Object
+length
+: 
+1
+[[Prototype]]
+: 
+Array(0)
+kind
+: 
+"youtube#searchListResponse"
+nextPageToken
+: 
+"CAEQAA"
+pageInfo
+: 
+{totalResults: 1000000, resultsPerPage: 1}
+regionCode
+: 
+"IN"
+[[Prototype]]
+: 
+Object
+
+
+
+
+
+
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "AJytbeQ0KTSKIq8oHR2ml8dpgrg",
+    "nextPageToken": "CAIQAA",
+    "regionCode": "IN",
+    "pageInfo": {
+        "totalResults": 1000000,
+        "resultsPerPage": 2
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "xrz3oBWjwICotXIkHvhk5gmgekM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "UmnCZ7-9yDY"
+            },
+            "snippet": {
+                "publishedAt": "2021-07-03T16:37:28Z",
+                "channelId": "UCBwmMxybNva6P_5VmxjzwqA",
+                "title": "Java Tutorial for Beginners | Learn Java in 2 Hours",
+                "description": "Are you worried about placements/internships? Want to prepare for companies like Microsoft, Amazon & Google? Join ALPHA.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/UmnCZ7-9yDY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/UmnCZ7-9yDY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/UmnCZ7-9yDY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Apna College",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-07-03T16:37:28Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "aEFDoHxL1edUsk1vgmZx521YYXU",
+            "id": {
+                "kind": "youtube#playlist",
+                "playlistId": "PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q"
+            },
+            "snippet": {
+                "publishedAt": "2020-08-30T15:55:04Z",
+                "channelId": "UCeVMnSShP_Iviwkknt83cww",
+                "title": "Java Tutorials For Beginners In Hindi",
+                "description": "In this complete Core + Advance Java tutorial for beginners in hindi, we will see complete java topics covered in hindi. This java ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ntLJmHOJ0ME/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ntLJmHOJ0ME/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ntLJmHOJ0ME/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "CodeWithHarry",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-08-30T15:55:04Z"
+            }
+        }
+    ]
+}
